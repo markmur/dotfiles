@@ -1,6 +1,6 @@
 # dotfiles
 
-Based on the wonder dotfiles from [Mathias Byens](https://github.com/mathiasbynens/dotfiles)
+Based on the wonderful dotfiles from [Mathias Byens](https://github.com/mathiasbynens/dotfiles)
 
 ## Installation
 
