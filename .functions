@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Add script to package.json
+function pkg-script () {
+  echo $(jq --arg key "${1}" --arg val "${2}" '.scripts[$key]=$val' package.json) | jq . | > package.json
+}
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
