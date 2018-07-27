@@ -1,0 +1,10 @@
+{
+  "name": "markmurray-dotfiles",
+  "version": "0.1.0",
+  "description": "Mark Murray's Dotfiles",
+  "main": "index.js",
+  "repository": "https://github.com/markmur/dotfiles.git",
+  "author": "Mark Murray <mark.murray.ie@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
