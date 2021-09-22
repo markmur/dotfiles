@@ -5,6 +5,16 @@ function pkg-script () {
   echo $(jq --arg key "${1}" --arg val "${2}" '.scripts[$key]=$val' package.json) | jq . | > package.json
 }
 
+# Get Wifi SSID
+function get-ssid {
+  /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -I | awk -F: '/ SSID/{print $2}'
+}
+
+# Get wifi password for current SSID
+function wifi-password {
+  security find-generic-password -wa $(get-ssid)
+}
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
