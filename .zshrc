@@ -42,6 +42,8 @@ ENABLE_CORRECTION="true"
 alias code="cursor"
 alias split-image="python3 bin/split-image.py"
 alias save-ssh='ssh-add -K'
+alias home="cd ~"
+alias dotfiles="cd ~/src/github.com/markmur/dotfiles"
 
 # =============================================================================
 # FUNCTIONS
