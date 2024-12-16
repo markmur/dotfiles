@@ -1,7 +1,5 @@
 # dotfiles
 
-Based on the wonderful dotfiles from [Mathias Byens](https://github.com/mathiasbynens/dotfiles)
-
 ## Installation
 
 **Note:** These dotfiles are specific to my setup. They should not be used blindly without reviewing the code first.
