@@ -9,11 +9,7 @@ brew install git
 brew install wget
 
 # Install Apps
-brew cask install atom
 brew cask install visual-studio-cask
-brew cask install dropbox
-brew cask install firefox
 brew cask install google-chrome
 brew cask install spotify
-brew cask install vlc
 brew cask install insomnia
