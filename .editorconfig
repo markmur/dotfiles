@@ -1,8 +1,8 @@
-root = true
+root = true                          # Indicates this is the top-most EditorConfig file
 
-[*]
-charset = utf-8
-indent_style = tab
-end_of_line = lf
-insert_final_newline = true
-trim_trailing_whitespace = true
+[*]                                  # These rules apply to all files
+charset = utf-8                      # Use UTF-8 character encoding
+indent_style = tab                   # Use tabs for indentation (instead of spaces)
+end_of_line = lf                     # Use Linux/Unix-style line endings (LF)
+insert_final_newline = true          # Add an empty newline at the end of files
+trim_trailing_whitespace = true      # Remove any whitespace at the end of lines
