@@ -29,6 +29,7 @@ brew install imagemagick --with-webp
 brew install rename
 brew install tree
 brew install jq
+brew install bat
 
 # Remove outdated versions from the cellar.
 brew cleanup
